@@ -1,0 +1,13 @@
+{
+    "name": "SKK Morzkulc",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "rgb(19 23 31)",
+    "icons": [
+      {
+        "src": "icons/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>SKK Morzkulc</title>
+
+        <link rel="manifest" href="manifest.json" />
+        <link rel="icon" href="icons/logo.png" type="image/png" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="normal" />
+
+        <script type="text/javascript">
+            if (navigator.serviceWorker != null) {
+                navigator.serviceWorker.register('worker.js');
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="icons/logo.png" alt="logo" />
+        </header>
+        <main>
+            <div class="small-grid">
+                <a href="https://spreadsheets.google.com/ccc?key=0AnEuKGv8EMD0dDlBaS1OYzJCUHp5bHYxcHVRX0N5aWc&hl=pl&pli=1#gid=2">
+                    <button class="item">Godzinki</button>
+                </a>
+                <a href="https://basen-morzkulc.firebaseapp.com">
+                    <button class="item">Basen</button>
+                </a>
+            </div>
+            <hr />
+            <h3 class="center">Regulaminy</h3>
+            <div class="grid">
+                <a href="http://morzkulc.pg.gda.pl/statuty/Statut_SKK_Morzkulc_2006_01_26.pdf">
+                    <button class="item">Statut</button>
+                </a>
+                <a href="https://drive.google.com/file/d/1nS-QWR3Urzst674KpdtEGcdt-QtYCNZ-/view">
+                    <button class="item">Regulamin Wewnętrzny</button>
+                </a>
+                <a href="https://drive.google.com/file/d/1b4Kh6NMLXT7xGUxvnHS8VDA956yIGkAt/view">
+                    <button class="item">Regulamin Sprzętowy</button>
+                </a>
+                <a href="https://docs.google.com/document/d/1scum1KEhzOEAg4DeTdNQUVZyKeFBydOv2i0FtB4NB3g/preview">
+                    <button class="item">Regulamin zajęć na basenie</button>
+                </a>
+            </div>
+        </main>
+        <hr />
+        <div class="promo">
+            <img class="picture" src="images/1.jpg"/>
+            <img class="picture" src="images/2.jpg"/>
+            <img class="picture" src="images/3.jpg"/>
+        </div>
+        <hr />
+        <footer>
+            <a href="https://www.facebook.com/Morzkulc/" class="icon">
+                <i class="bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/skk_morzkulc/" class="icon">
+                <i class="bi-instagram"></i>
+            </a>
+            <a href="http://lists.iem.pw.edu.pl/mailman/listinfo/skk_morzkulc" class="icon">
+                <i class="bi-envelope"></i>
+            </a>
+        </footer>
+        <p class="center">© Członkowie <a href="https://github.com/morzkulc">SKK Morzkulc</a> 2024</p>
+    </body>
+</html>
