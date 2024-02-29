@@ -79,6 +79,8 @@ main {
     display: grid;
     justify-content: center;
     align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 1ch;
 }
 
 .center {
