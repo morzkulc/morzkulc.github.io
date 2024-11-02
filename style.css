@@ -31,6 +31,7 @@ button {
     color: #01aaff !important;
     text-align: center;
     text-decoration: none;
+    font-weight: bolder;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -63,7 +64,7 @@ main {
 
 @media (min-width: 450px) {
     .small-grid {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
